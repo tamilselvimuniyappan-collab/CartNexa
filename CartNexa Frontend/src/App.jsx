@@ -98,7 +98,7 @@ function App() {
       // ==============================
 
       const orderResponse = await fetch(
-        "http://localhost:8080/orders",
+        "https://cartnexa-4.onrender.com/orders",
         {
           method: "POST",
           headers: {
@@ -128,7 +128,7 @@ function App() {
 
       for (const item of checkoutCart) {
         await fetch(
-          "http://localhost:8080/orders/items",
+          "https://cartnexa-4.onrender.com/orders/items",
           {
             method: "POST",
             headers: {
@@ -149,7 +149,7 @@ function App() {
       // ==============================
 
       await fetch(
-        `http://localhost:8080/cart/clear/${user.id}`,
+        `https://cartnexa-4.onrender.com/cart/clear/${user.id}`,
         {
           method: "DELETE",
         }

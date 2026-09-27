@@ -16,7 +16,7 @@ function Register({ onLoginClick }) {
     }
 
     try {
-      const response = await fetch("http://localhost:8080/users/register", {
+      const response = await fetch("https://cartnexa-4.onrender.com/users/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

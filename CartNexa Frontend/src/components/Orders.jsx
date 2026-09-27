@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../App.css";
 
 const Orders = ({ userId, onBack,onViewOrder  }) => {
-  const API = "http://localhost:8080";
+  const API = "https://cartnexa-4.onrender.com";
 
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);

@@ -10,7 +10,7 @@ const Reports = ({ onBack }) => {
   // GET PRODUCTS
   useEffect(() => {
 
-    fetch("http://localhost:8080/products")
+    fetch("https://cartnexa-4.onrender.com/products")
       .then((response) => {
 
         if (!response.ok) {
@@ -41,7 +41,7 @@ const Reports = ({ onBack }) => {
   // GET ORDERS
   useEffect(() => {
 
-    fetch("http://localhost:8080/orders")
+    fetch("https://cartnexa-4.onrender.com/orders")
       .then((response) => {
 
         if (!response.ok) {

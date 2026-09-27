@@ -16,7 +16,7 @@ const Dashboard = ({
 
   useEffect(() => {
 
-    fetch("http://localhost:8080/products")
+    fetch("https://cartnexa-4.onrender.com/products")
 
       .then((response) => {
 
@@ -59,7 +59,7 @@ const Dashboard = ({
 
   useEffect(() => {
 
-    fetch("http://localhost:8080/orders")
+    fetch("https://cartnexa-4.onrender.com/orders")
 
       .then((response) => {
 

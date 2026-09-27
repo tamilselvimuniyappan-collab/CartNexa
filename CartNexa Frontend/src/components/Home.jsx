@@ -88,7 +88,7 @@ function Home({
   onDashboardClick,
 }) {
 
-  const API = "http://localhost:8080";
+  const API = "https://cartnexa-4.onrender.com";
 
   const [products, setProducts] = useState([]);
 

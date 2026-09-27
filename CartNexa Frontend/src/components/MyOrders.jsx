@@ -11,7 +11,7 @@ const MyOrders = ({ userId, onBack }) => {
       return;
     }
 
-    fetch(`http://localhost:8080/orders/user/${userId}`)
+    fetch(`https://cartnexa-4.onrender.com/orders/user/${userId}`)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch orders");
